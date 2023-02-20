@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="TextoNombre">Nombre completo</string>
+    <string name="SetDate">Set Date</string>
+    <string name="FechaNaciemiento">Fecha de nacimiento</string>
+    <string name="BotonCancel">Cancel</string>
+    <string name="BotonOk">Ok</string>
+    <string name="Telefono">Telèfono</string>
+    <string name="email">Email</string>
+    <string name="Descripcion">Descripciòn</string>
+    <string name="BotonSiguiente">Siguiente</string>
+    <string name="Confirmar">Confirmar Datos</string>
+    <string name="NombrePersona">Jose</string>
+    <string name="TelefonoPersona">5555556666</string>
+    <string name="EmailPersona">joseœgmail.com</string>
+    <string name="DescripcionPersona">hol  hola hola</string>
+    <string name="FechaNacimientoPersona">19/06/1991</string>
+    <string name="EditarDatos">Editar Datos</string>
+
+</resources>

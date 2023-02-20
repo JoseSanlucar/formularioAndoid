@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/LTextoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/textoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextoNombre"
+            android:textSize="@dimen/TamañoFormulario"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LFechaNacimientoPadre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/LTextoFecha"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            >
+
+            <TextView
+                android:text="@string/SetDate"
+                android:textSize="@dimen/TamañoCardViewFecha"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:text="@string/FechaNaciemiento"
+                android:textSize="@dimen/TamañoCardViewFecha"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <DatePicker
+            android:id="@+id/DPFechanacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:background="@drawable/border"
+            />
+
+        <LinearLayout
+            android:id="@+id/LBotonesFecha"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <Button
+                android:id="@+id/BCancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:text="@string/BotonCancel"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/BOk"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="match_parent"
+                android:text="@string/BotonOk"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Ltelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/ETelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Telefono"
+            android:inputType="phone"
+            android:textSize="@dimen/TamañoFormulario"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/LEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/EEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textSize="@dimen/TamañoFormulario"/>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/LDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/EDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Descripcion"
+            android:textSize="@dimen/TamañoFormulario"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/LBotonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/BtnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/BotonSiguiente"/>
+
+
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

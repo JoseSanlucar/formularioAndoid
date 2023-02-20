@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TamañoFormulario">16sp</dimen>
+    <dimen name="TamañoCardViewFecha">12sp</dimen>
+    <dimen name="TituloConfirmarDatos">30sp</dimen>
+    <dimen name="CamposConfirmarDatos">20sp</dimen>
+
+</resources>

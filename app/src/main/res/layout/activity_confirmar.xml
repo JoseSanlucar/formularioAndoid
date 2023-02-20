@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".confirmar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Confirmar"
+            android:textSize="@dimen/TituloConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/TvNombrePersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NombrePersona"
+            android:textSize="@dimen/CamposConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FechaNaciemiento"
+            android:textSize="@dimen/CamposConfirmarDatos"
+            android:paddingRight="8dp"/>
+        <TextView
+            android:id="@+id/TvFechaNacimientoPersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FechaNacimientoPersona"
+            android:textSize="@dimen/CamposConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Telefono"
+            android:textSize="@dimen/CamposConfirmarDatos"
+            android:paddingRight="8dp"/>
+        <TextView
+            android:id="@+id/TelefonoPersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TelefonoPersona"
+            android:textSize="@dimen/CamposConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="@dimen/CamposConfirmarDatos"
+            android:paddingRight="8dp"/>
+        <TextView
+            android:id="@+id/TvEmailPersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EmailPersona"
+            android:textSize="@dimen/CamposConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Descripcion"
+            android:textSize="@dimen/CamposConfirmarDatos"
+            android:paddingRight="8dp"/>
+        <TextView
+            android:id="@+id/TvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DescripcionPersona"
+            android:textSize="@dimen/CamposConfirmarDatos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnEditarDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/EditarDatos"/>
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
